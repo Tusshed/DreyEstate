@@ -7,6 +7,7 @@ import PopularAreas from "./sections/PopularAreas";
 import Properties from "./sections/Properties";
 import Contact from "./sections/Contact";
 import Footing from "./components/Footing";
+import Services from "./sections/Services";
 const App = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const App = () => {
         <About />
         <PopularAreas />
         <Properties />
+
         <Contact />
         <Footing />
       </DarkModeProvider>

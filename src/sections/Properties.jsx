@@ -77,9 +77,29 @@ const Properties = () => {
                   className="flex justify-between items-end w-full p-4"
                 >
                   <div className="flex justify-start items-center gap-2">
-                    <FaMapMarkerAlt />
+                    <FaMapMarkerAlt className="size-4 text-white" />
+                    <h1 className="text-white">{item.address}</h1>
                   </div>
                 </div>
+              </div>
+              <div className="px-6 py-3 flex flex-col justify-center items-start gap-2 w-full">
+                <h1 className="text-xl text-black font-semibold dark:text-white">
+                  {item.name}
+                </h1>
+                <h1 className="text-2xl text-red-600 font-bold dark:text-white">
+                  {item.price}
+                </h1>
+                <p className="dark:text-white">{item.about}</p>
+                <div
+                  id="icons"
+                  className="flex justify-center items-center gap-2"
+                >
+                  <div className="flex justify-center items-center gap-2">
+                    <MdSpaceDashboard className="size-5 text-red-400" />
+                    <h1 className="dark:text-white">{item.area}</h1>
+                  </div>
+                </div>
+                <div className="w-full h-[1px] bg-gray-200 mt-8"></div>
               </div>
             </div>
           ))}
