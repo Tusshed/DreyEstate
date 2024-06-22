@@ -37,6 +37,47 @@ const Contact = () => {
             placeholder="Enter full name"
             className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl"
           />
+          <input
+            type="email"
+            placeholder="Enter valid email"
+            className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl"
+          />
+          <input
+            type="number"
+            placeholder="Enter phone number"
+            className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl"
+          />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="5"
+            placeholder="Enter additional request here.."
+            className="w-full px-6 py-3 border-gray-200 rounded-xl"
+          ></textarea>
+          <button className="bg-red-600 w-full text-md px-8 py-3 text-white font-semibold rounded-xl hover:bg-black dark:hover:bg-red-700 cursor-pointer">
+            SEND EMAIL
+          </button>
+        </div>
+        <div className="flex flex-col justify-center items-start gap-8 lg:p-20 p-6">
+          {/*<h1
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            className="text-red-500 dark:text-white"
+          >
+            REACH US
+          </h1>
+          <h1
+            data-aos="zoom-in"
+            data-aos-delay="400"
+            className="text-black text-[40px] font-semibold leading-10 dark:text-white"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            consequuntur nam commodi id est.<br></br>
+          </h1>
+          <button className="bg-red-600 text-md px-8 py-3 text-white font-semibold rounded-xl hover:bg-black dark:hover:bg-red-700 cursor-pointer">
+            SEND EMAIL
+          </button>*/}
         </div>
       </section>
     </div>
