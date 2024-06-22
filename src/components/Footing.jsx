@@ -14,9 +14,8 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { IoMdMail } from "react-icons/io";
-import prop7 from "../assets/images/prop7.jpg";
-import prop8 from "../assets/images/prop8.jpg";
-
+import eko from "../assets/images/ekocity.jpeg";
+import est3 from "../assets/images/est3.png";
 const Footing = () => {
   const { darkMode, toggleDarkMode } = useDarkMode();
 
@@ -58,7 +57,9 @@ const Footing = () => {
             </div>
             <div className="flex justify-center items-center gap-3">
               <IoMdMail className="text-white size-5" />
-              <p className="text-slate-200">@mail.com.</p>
+              <p className="text-slate-200">
+                Dareegbewale@adronhomesproperties.com
+              </p>
             </div>
           </div>
           <div className="flex flex-col justify-center items-start gap-5">
@@ -67,7 +68,7 @@ const Footing = () => {
             </h1>
             <div className="flex justify-center items-center gap-4">
               <img
-                src={prop7}
+                src={est3}
                 alt=""
                 className="w-[120px] rounded-lg transform hover:scale-110 cursor-pointer transition-transform duration-300"
               />
@@ -76,7 +77,7 @@ const Footing = () => {
             </div>
             <div className="flex justify-center items-center gap-4">
               <img
-                src={prop8}
+                src={eko}
                 alt=""
                 className="w-[120px] rounded-lg transform hover:scale-110 cursor-pointer transition-transform duration-300"
               />
@@ -101,6 +102,21 @@ const Footing = () => {
         <Link to="hero" spy={true} offset={-100} smooth={true}>
           <FaArrowUp className="size-6 text-white" />
         </Link>
+      </div>
+
+      {/* dark mode toggle button section */}
+      <div>
+        <button
+          onClick={toggleDarkMode}
+          className="flex items-center p-4
+rounded-full bg-orange-500 fixed lg:top-52 right-6 top-6"
+        >
+          {darkMode ? (
+            <FaMoon size={25} className="text-black" />
+          ) : (
+            <FaSun size={25} className="text-black" />
+          )}
+        </button>
       </div>
     </div>
   );

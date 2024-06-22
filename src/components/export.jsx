@@ -1,9 +1,9 @@
-import prop1 from "../assets/images/prop1.webp";
-import prop2 from "../assets/images/prop2.webp";
-import prop3 from "../assets/images/prop3.webp";
-import prop4 from "../assets/images/prop4.webp";
-import prop5 from "../assets/images/prop5.webp";
-import prop6 from "../assets/images/prop6.webp";
+import est2 from "../assets/images/est2.png";
+import est3 from "../assets/images/est3.png";
+import grand from "../assets/images/grandview.jpeg";
+import rome from "../assets/images/rome.jpeg";
+import london from "../assets/images/london park.jpg";
+import eko from "../assets/images/ekocity.jpeg";
 
 import { MdNoteAlt } from "react-icons/md";
 import {
@@ -16,75 +16,70 @@ import { GoLaw } from "react-icons/go";
 
 export const property = [
   {
-    images: prop1,
-    address: "6Downtown, Las Vegas",
-    name: "Villa with Amazing View",
-    price: "$ 213.23",
-    about:
-      "Beautiful, updated, ground level Co-op apartment in the desirable Bay Terrace neighborhood",
+    images: est3,
+    address: "Aiyegun-Oleyo, Ibadan.",
+    name: "West park & Gardens",
+    price: "₦9,000,000",
+    about: "Beautiful neighborhood",
     bed: 4,
     bath: 3,
-    area: "250 sq ft",
+    area: "270 Sqm",
     owner: "Alice adams",
   },
   {
-    images: prop2,
+    images: est2,
     address: "Meadows Village, Las Vegas",
-    name: "Townhouse for Sale",
-    price: "$ 345.18",
+    name: "Winter park and gardens",
+    price: "₦10,000,000",
     about:
       "Beautiful, updated, ground level Co-op apartment in the desirable Bay Terrace neighborhood",
     bed: 4,
     bath: 3,
-    area: "450 sq ft",
+    area: "540 Sqm",
     owner: "Drew Alice",
   },
   {
-    images: prop3,
-    address: "49 DC townhall alex",
-    name: "Duplex sea facing for rent",
-    price: "$ 652.18",
-    about:
-      "Beautiful, updated, ground level Co-op apartment in the desirable Bay Terrace neighborhood",
+    images: grand,
+    address: "Atan-Ota,Ogun State",
+    name: "Grandview Park & Gardens",
+    price: "₦5,000,000",
+    about: "Beautiful estate with top-tier facilities",
     bed: 4,
     bath: 3,
-    area: "129 sq ft",
+    area: "648 Sqm",
     owner: "Fursi Bam",
   },
   {
-    images: prop4,
-    address: "Underground street 20 texax",
-    name: "Villa with Side View",
-    price: "$ 876.13",
-    about:
-      "Beautiful, updated, ground level Co-op apartment in the desirable Bay Terrace neighborhood",
+    images: rome,
+    address: "Imota Emuren,Ogun State",
+    name: "City of Rome.",
+    price: "₦7,000,000",
+    about: "Beautiful estate neighborhood",
     bed: 4,
     bath: 3,
-    area: "453 sq ft",
+    area: "600 Sqm",
     owner: "Neon Alice",
   },
   {
-    images: prop5,
-    address: "Rubari London Hills",
-    name: "Awesome villa for rent",
-    price: "$ 341.83",
-    about:
-      "Beautiful, updated, ground level Co-op apartment in the desirable Bay Terrace neighborhood",
+    images: london,
+    address: "Ologuneru,Ibadan",
+    name: "London Park & Gardens",
+    price: "₦3,500,000",
+    about: "Beautiful neighborhood",
     bed: 4,
     bath: 3,
-    area: "320 sq ft",
+    area: "540 Sqm",
     owner: "Firari Alice",
   },
   {
-    images: prop6,
-    address: "Northean fersh alice",
-    name: "Street Farm for sale",
-    price: "$ 675.23",
-    about:
-      "Beautiful, updated, ground level Co-op apartment in the desirable Bay Terrace neighborhood",
+    images: eko,
+    address: "Lekki-Epe",
+    name: "Eko City, Ile-Aje",
+    price: "₦100,000,000",
+    about: "Beautiful neighborhood",
     bed: 4,
     bath: 3,
-    area: "340 sq ft",
+    area: "500 Sqm",
     owner: "Jordan Bram",
   },
 ];
