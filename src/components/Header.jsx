@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FaXmark, FaBars } from "react-icons/fa6";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/adronlogo.png";
 import { useDarkMode } from "./DarkModeContext";
 import { FaPhoneAlt, FaUserCircle } from "react-icons/fa";
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
   const navItems = [
     {
       link: "Home",
-      path: "home",
+      path: "hero",
     },
     {
       link: "About",
@@ -59,6 +59,40 @@ dark:invert"
           </Link>
         ))}
       </ul>
+      {/*mobile harmburger*/}
+      <div
+        className="flex justify-center items-center lg:hidden"
+        onClick={toggleMenu}
+      >
+        <div>
+          {isMenuOpen ? (
+            <FaXmark className="text-black dark:text-white text-2xl cursor-pointer" />
+          ) : (
+            <FaBars className="text-black dark:text-white text-2xl cursor-pointer" />
+          )}
+        </div>
+        <div
+          className={`${
+            isMenuOpen ? "flex" : "hidden"
+          } w-full h-fit bg-slate-800 p-4 absolute top-[80px] left-0`}
+          onClick={closeMenu}
+        >
+          <ul className="flex flex-col justify-center items-center gap-2 w-full">
+            {navItems.map(({ link, path }) => (
+              <Link
+                key={path}
+                className="text-white uppercase font-semibold cursor-pointer p-3 rounded-lg hover:bg-red-600 hover:text-black w-full text-center"
+                to={path}
+                spy={true}
+                offset={-100}
+                smooth={true}
+              >
+                {link}
+              </Link>
+            ))}
+          </ul>
+        </div>
+      </div>
     </nav>
   );
 };

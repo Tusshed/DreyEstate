@@ -29,8 +29,11 @@ const Footing = () => {
         <div className="flex flex-col justify-center items-start gap-5">
           <h1 className="text-white text-2xl font-semibold">About US</h1>
           <p className="text-slate-200 text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            optio, alias magni excepturi illo dolorem?
+            Our mission is to empower you with the information, tools, and
+            support you need to make informed decisions in the real estate
+            market. Whether you're buying, selling, or renting, we strive to
+            offer comprehensive solutions that cater to your unique requirements
+            and aspirations.
           </p>
           <div
             id="social-icons"
@@ -88,7 +91,7 @@ const Footing = () => {
           <div className="mt-16 border-t border-gray-400/30 pt-8 ">
             <div className="text-md text-center text-white">
               Copyright © 2024 . All Right Reserved Tussh
-              <span class="text-gray-50">♥</span>
+              <span className="text-gray-50">♥</span>
             </div>
           </div>
         </div>

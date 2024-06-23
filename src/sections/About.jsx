@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import aboutimg from "../assets/images/about.jpg";
+import heroimg from "../assets/images/pexels-rdne-8293778.jpg";
 import { useDarkMode } from "../components/DarkModeContext";
 
 import Aos from "aos";
@@ -24,7 +24,7 @@ const About = () => {
       <div>
         <img
           data-aos="zoom-in"
-          src={aboutimg}
+          src={heroimg}
           alt="abt img"
           className="rounded-2xl lg:w-[500px] lg:h-[600px]"
         />

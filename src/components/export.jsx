@@ -28,7 +28,7 @@ export const property = [
   },
   {
     images: est2,
-    address: "Meadows Village, Las Vegas",
+    address: "Sagamu,Ogun State",
     name: "Winter park and gardens",
     price: "₦10,000,000",
     about:

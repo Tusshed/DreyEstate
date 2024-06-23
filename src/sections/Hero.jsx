@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import heroimg from "../assets/images/hero1.webp";
+import heroimg from "../assets/images/pexels-rdne-8293778.jpg";
 import dimension from "../assets/images/3dview.jpeg";
 import { useDarkMode } from "../components/DarkModeContext";
 import Aos from "aos";
