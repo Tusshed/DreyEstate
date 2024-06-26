@@ -35,7 +35,7 @@ const Header = () => {
     <nav
       className={`${
         darkMode ? "dark bg-black" : "light bg-[#f3f3f3]"
-      }flex justify-between items-center gap-4 lg:px-20 px-4 py-3 sticky top-0 z-30`}
+      } flex justify-between items-center gap-4 lg:px-20 px-4 py-3 sticky top-0 z-30`}
     >
       <div id="logo">
         <img

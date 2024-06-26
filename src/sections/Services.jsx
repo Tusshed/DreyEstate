@@ -21,7 +21,11 @@ const Services = () => {
         className={`${
           darkMode ? "dark bg-gray-800" : "light bg-red-100"
         } lg:w-[95%] w-full h-fit m-auto rounded-xl flex flex-col justify-center items-start lg:px-20 px-6 py-20 gap-10`}
-      ></section>
+      >
+        <div className="flex flex-col justify-center items-start gap-4">
+          <div data-aos="zoom-in" className=""></div>
+        </div>
+      </section>
     </div>
   );
 };
