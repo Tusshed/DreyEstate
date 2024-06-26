@@ -41,7 +41,7 @@ const Header = () => {
         <img
           src={logo}
           alt="company logo"
-          className="1g:w-[90px] w-[30px]
+          className="lg:w-[90px] w-[30px]
 dark:invert"
         />
       </div>

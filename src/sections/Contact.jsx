@@ -22,7 +22,7 @@ const Contact = () => {
         id="contact"
         className={`${
           darkMode ? "dark bg-gray-800" : "light bg-red-100"
-        }pb-20 lg:w-[95%] w-full h-fit m-auto rounded-xl grid lg:grid-cols-2 grid-cols-1 justify-center items-center lg:px-36 px-6 py-20 gap-10`}
+        } pb-20 lg:w-[95%] w-full h-fit m-auto rounded-xl grid lg:grid-cols-2 grid-cols-1 justify-center items-center lg:px-36 px-6 py-20 gap-10`}
       >
         <div
           data-aos="zoom-in"
