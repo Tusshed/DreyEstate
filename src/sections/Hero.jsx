@@ -18,7 +18,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className={`${darkMode ? "dark bg-black" : "light bg-white"}`}>
+      <div className={`${darkMode ? "dark bg-black" : "light bg-green-500"}`}>
         <section
           id="hero"
           className="w-[95%] h-[600px] m-auto bg-cover bg-center rounded-xl flex justify-center flex-col items-start lg:px-28 px-10 gap-7 z-20"
@@ -33,7 +33,7 @@ const Hero = () => {
 
           <p
             data-aos="zoom-in"
-            className="text-white text-xl lg:pr-[500px] pr-0"
+            className="text-stone-300 text-xl lg:pr-[500px] pr-0"
           >
             Start your journey with us and discover a wide range of properties
             that suits every budget and lifestyle. Our platform wil find you the
@@ -51,7 +51,7 @@ const Hero = () => {
           data-aos="zoom-in"
           id="form"
           className={`${
-            darkMode ? "dark bg-gray-800" : "light bg-white"
+            darkMode ? "dark bg-gray-800" : "light bg-green-500"
           } lg:w-[70%] w-full m-auto grid lg:grid-cols-4 grid-cols-1 justify-center items-center gap-6 p-8 rounded-x1 -mt-14`}
         >
           <div className="w-full">
@@ -82,7 +82,7 @@ const Hero = () => {
             </select>
           </div>
           <div className="w-full">
-            <button className="bg-red-600 dark:bg-red-700 hover:bg-black dark:hover:bg-white dark:hover:text-black text-lg p-4 w-full text-white font-semibold rounded-xl cursor-pointer transform hover:scale-110 transition-transform duration-110">
+            <button className="bg-lime-600 dark:bg-green-950 hover:bg-black dark:hover:bg-white dark:hover:text-black text-lg p-4 w-full text-white font-semibold rounded-xl cursor-pointer transform hover:scale-110 transition-transform duration-110">
               SUBMIT
             </button>
           </div>

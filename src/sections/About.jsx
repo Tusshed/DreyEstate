@@ -30,7 +30,7 @@ const About = () => {
         />
       </div>
       <div className="flex flex-col justify-center items-start gap-8">
-        <h1 data-aos="zoom-in" className="text-red-500 dark:text-white">
+        <h1 data-aos="zoom-in" className="text-lime-500 dark:text-white">
           WHO WE ARE{" "}
         </h1>
         <h1
@@ -53,7 +53,7 @@ const About = () => {
           priority, and we are here to make your real estate experience seamless
           and successful.
         </p>
-        <button className="bg-red-600 dark:bg-red-700 hover:bg-black dark:hover:bg-white dark:hover:text-black text-lg p-4 text-white font-semibold rounded-xl cursor-pointer transform hover:scale-110 transition-transform duration-110">
+        <button className="bg-lime-600 dark:bg-green-950 hover:bg-black dark:hover:bg-white dark:hover:text-black text-lg p-4 text-white font-semibold rounded-xl cursor-pointer transform hover:scale-110 transition-transform duration-110">
           Contact
         </button>
       </div>

@@ -49,7 +49,7 @@ dark:invert"
         {navItems.map(({ link, path }) => (
           <Link
             key={path}
-            className="text-black text-[15px] uppercase font-semibold cursor-pointer px-3 py-2 dark:text-white rounded-lg hover:bg-red-600 hover:text-white"
+            className="text-black text-[15px] uppercase font-semibold cursor-pointer px-3 py-2 dark:text-white rounded-lg hover:bg-green-500 hover:text-white"
             to={path}
             spy={true}
             offset={-100}

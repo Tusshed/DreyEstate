@@ -29,7 +29,7 @@ const Properties = () => {
         className="lg:w-[90%] m-auto lg:px-20 px-6 py-20 w-full flex flex-col justify-center items-start gap-10"
       >
         <div className="flex flex-col justify-center items-start gap-4">
-          <h3 data-aos="zoom-in" className="text-red-500 dark:text-white">
+          <h3 data-aos="zoom-in" className="text-lime-500 dark:text-white">
             PROPERTIES
           </h3>
           <h1
@@ -58,15 +58,15 @@ const Properties = () => {
               >
                 <div id="top" className="flex justify-between items-end w-full">
                   <div>
-                    <button className="px-3 py-1 bg-red-600 hover:bg-white hover:text-black text-white rounded-full text-[13px]">
+                    <button className="px-3 py-1 bg-green-600 hover:bg-white hover:text-black text-white rounded-full text-[13px]">
                       Featured
                     </button>
                   </div>
                   <div className="flex justify-between items-center gap-3">
-                    <button className="px-3 py-1 bg-red-600 hover:bg-white hover:text-black text-white rounded-full text-[13px]">
+                    <button className="px-3 py-1 bg-green-600 hover:bg-white hover:text-black text-white rounded-full text-[13px]">
                       Sales
                     </button>
-                    <button className="px-3 py-1 bg-red-600 hover:bg-white hover:text-black text-white rounded-full text-[13px]">
+                    <button className="px-3 py-1 bg-lime-600 hover:bg-white hover:text-black text-white rounded-full text-[13px]">
                       Active
                     </button>
                   </div>
@@ -77,8 +77,8 @@ const Properties = () => {
                   className="flex justify-between items-end w-full p-4"
                 >
                   <div className="flex justify-start items-center gap-2">
-                    <FaMapMarkerAlt className="size-4 text-white" />
-                    <h1 className="text-white">{item.address}</h1>
+                    <FaMapMarkerAlt className="size-4 text-green-500" />
+                    <h1 className="text-slate-800">{item.address}</h1>
                   </div>
                 </div>
               </div>
