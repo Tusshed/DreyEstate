@@ -21,14 +21,14 @@ const Contact = () => {
       <section
         id="contact"
         className={`${
-          darkMode ? "dark bg-gray-800" : "light bg-lime-300"
+          darkMode ? "dark bg-gray-800" : "light"
         } pb-20 lg:w-[95%] w-full h-fit m-auto rounded-xl grid lg:grid-cols-2 grid-cols-1 justify-center items-center lg:px-36 px-6 py-20 gap-10`}
       >
         <div
           data-aos="zoom-in"
-          className="bg-white dark:bg-black p-10 flex flex-col justify-center items-start gap-4 rounded-xl"
+          className="bg-lime-300 dark:bg-black p-10 flex flex-col justify-center items-start gap-4 rounded-xl"
         >
-          <h1 className="text-2x1 text-black font-semibold dark:text-white">
+          <h1 className="text-2x1 text-lime-950 font-semibold dark:text-white">
             {" "}
             Send us a message
           </h1>
@@ -43,7 +43,7 @@ const Contact = () => {
             className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl"
           />
           <input
-            type="number"
+            type="tel"
             placeholder="Enter phone number"
             className="w-full px-6 py-3 border-2 border-gray-200 rounded-xl"
           />
@@ -55,7 +55,7 @@ const Contact = () => {
             placeholder="Enter additional request here.."
             className="w-full px-6 py-3 border-gray-200 rounded-xl"
           ></textarea>
-          <button className="bg-red-600 w-full text-md px-8 py-3 text-white font-semibold rounded-xl hover:bg-black dark:hover:bg-red-700 cursor-pointer">
+          <button className="bg-green-600 w-full text-md px-8 py-3 text-white font-semibold rounded-xl hover:bg-black dark:hover:bg-lime-700 cursor-pointer">
             SEND EMAIL
           </button>
         </div>

@@ -31,8 +31,7 @@ export const property = [
     address: "Sagamu,Ogun State",
     name: "Winter park and gardens",
     price: "₦10,000,000",
-    about:
-      "Beautiful, updated, ground level Co-op apartment in the desirable Bay Terrace neighborhood",
+    about: "Beautiful neighborhood",
     bed: 4,
     bath: 3,
     area: "540 Sqm",

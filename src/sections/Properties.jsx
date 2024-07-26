@@ -86,7 +86,7 @@ const Properties = () => {
                 <h1 className="text-xl text-black font-semibold dark:text-white">
                   {item.name}
                 </h1>
-                <h1 className="text-2xl text-red-600 font-bold dark:text-white">
+                <h1 className="text-2xl text-green-600 font-bold dark:text-white">
                   {item.price}
                 </h1>
                 <p className="dark:text-white">{item.about}</p>
@@ -95,7 +95,7 @@ const Properties = () => {
                   className="flex justify-center items-center gap-2"
                 >
                   <div className="flex justify-center items-center gap-2">
-                    <MdSpaceDashboard className="size-5 text-red-400" />
+                    <MdSpaceDashboard className="size-5 text-emerald-400" />
                     <h1 className="dark:text-white">{item.area}</h1>
                   </div>
                 </div>
