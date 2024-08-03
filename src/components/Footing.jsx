@@ -7,7 +7,6 @@ import {
   FaYoutube,
   FaBuilding,
   FaMobile,
-  FaFax,
   FaArrowUp,
   FaMoon,
   FaSun,
@@ -16,6 +15,7 @@ import { Link } from "react-scroll";
 import { IoMdMail } from "react-icons/io";
 import eko from "../assets/images/ekocity.jpeg";
 import est3 from "../assets/images/est3.png";
+import { FaVideo } from "react-icons/fa6";
 const Footing = () => {
   const { darkMode, toggleDarkMode } = useDarkMode();
 
@@ -45,6 +45,11 @@ const Footing = () => {
             <div className="p-3 rounded-xl bg-white hover:bg-red-600 hover:text-white cursor-pointer transform hover:scale-110 transition-transform duration-300">
               <FaInstagram className="size-5" />
             </div>
+            <div className="p-3 rounded-xl bg-white hover:bg-lime-300 hover:text-white cursor-pointer transform hover:scale-110 transition-transform duration-300">
+              <a href="/src/pages/ad.html">
+                <FaVideo className="size-5" />
+              </a>
+            </div>
           </div>
           <div className="flex flex-col justify-center items-start gap-5">
             <h1 className="text-white text-2xl font-semibold">Contact US</h1>
@@ -61,7 +66,7 @@ const Footing = () => {
             <div className="flex justify-center items-center gap-3">
               <IoMdMail className="text-white size-5" />
               <p className="text-slate-200">
-                Dareegbewale@adronhomesproperties.com
+                Dareadronhomesproperties@gmail.com
               </p>
             </div>
           </div>
