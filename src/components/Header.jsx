@@ -30,6 +30,10 @@ const Header = () => {
       link: "Contact",
       path: "contact",
     },
+    {
+      link: "Videos",
+      path: "advert",
+    },
   ];
   return (
     <nav

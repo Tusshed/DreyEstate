@@ -7,6 +7,7 @@ import PopularAreas from "./sections/PopularAreas";
 import Properties from "./sections/Properties";
 import Contact from "./sections/Contact";
 import Footing from "./components/Footing";
+import Videos from "./sections/Videos";
 const App = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const App = () => {
         <Properties />
 
         <Contact />
+        <Videos />
         <Footing />
       </DarkModeProvider>
     </div>
