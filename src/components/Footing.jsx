@@ -46,9 +46,7 @@ const Footing = () => {
               <FaInstagram className="size-5" />
             </div>
             <div className="p-3 rounded-xl bg-white hover:bg-lime-300 hover:text-white cursor-pointer transform hover:scale-110 transition-transform duration-300">
-              <a href="/src/pages/ad.html">
-                <FaVideo className="size-5" />
-              </a>
+              <FaVideo className="size-5" />
             </div>
           </div>
           <div className="flex flex-col justify-center items-start gap-5">
