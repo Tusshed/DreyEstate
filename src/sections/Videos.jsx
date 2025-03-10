@@ -19,7 +19,7 @@ const Videos = () => {
     <div
       className={`${darkMode ? "dark bg-gray-800" : "light bg-transparent"}`}
     >
-      <div className=" text-gray-900 dark:text-white">
+      <div className=" text-gray-900 dark:text-white" id="video-section">
         <header className="text-center py-8" data-aos="zoom-in">
           <h1 className="text-3xl text-center font-bold">
             {" "}

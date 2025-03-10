@@ -4,6 +4,7 @@ import { useDarkMode } from "../components/DarkModeContext";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-scroll";
 const About = () => {
   useEffect(() => {
     Aos.init({
@@ -53,9 +54,11 @@ const About = () => {
           priority, and we are here to make your real estate experience seamless
           and successful.
         </p>
-        <button className="bg-lime-600 dark:bg-green-950 hover:bg-black dark:hover:bg-white dark:hover:text-black text-lg p-4 text-white font-semibold rounded-xl cursor-pointer transform hover:scale-110 transition-transform duration-110">
-          Contact
-        </button>
+        <Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>
+          <button className="bg-lime-600 dark:bg-green-950 hover:bg-black dark:hover:bg-white dark:hover:text-black text-lg p-4 text-white font-semibold rounded-xl cursor-pointer transform hover:scale-110 transition-transform duration-110">
+            Contact
+          </button>
+        </Link>
       </div>
     </section>
   );
