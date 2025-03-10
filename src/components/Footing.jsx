@@ -79,7 +79,7 @@ const Footing = () => {
                 className="w-[120px] rounded-lg transform hover:scale-110 cursor-pointer transition-transform duration-300"
               />
               <h1 className="text-lg text-white">West park & Gardens</h1>
-              <p className="text-slate-400">₦9,000,000</p>
+              <p className="text-slate-400">₦12,000,000</p>
             </div>
             <div className="flex justify-center items-center gap-4">
               <img
